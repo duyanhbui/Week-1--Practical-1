@@ -4,22 +4,22 @@ void print_pass_fail(char grade) {
     bool pass = true;
     switch (grade){
         case 'A':
-            std :: cout << "pass";
+            std :: cout << "Pass";
             break;
         case 'B':
-            std :: cout << "pass";
+            std :: cout << "Pass";
             break;
         case 'C':
-            std :: cout << "pass";
+            std :: cout << "Pass";
             break;
         case 'D':
-            std :: cout << "fail";
+            std :: cout << "Fail";
             break;
         case 'E':
-            std :: cout << "fail";
+            std :: cout << "Fail";
             break;    
         default:
-            std :: cout << "fail";
+            std :: cout << "Fail";
             break;
         
     }
